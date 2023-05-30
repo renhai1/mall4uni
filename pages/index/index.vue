@@ -36,10 +36,10 @@
         <image src="/static/images/icon/neweveryday.png"></image>
         <text>每日疯抢</text>
       </view>
-      <view class="item" @tap="toCouponCenter">
+      <!-- <view class="item" @tap="toCouponCenter">
         <image src="/static/images/icon/newprods.png"></image>
         <text>领优惠券</text>
-      </view>
+      </view> -->
     </view>
 
     <!-- 消息播放 -->

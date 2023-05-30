@@ -81,7 +81,7 @@
 					<view v-else class="num">--</view>
 					<view class="tit">我的收藏</view>
 				</view>
-				<view class="col-item" @tap="handleTips">
+				<!-- <view class="col-item" @tap="handleTips">
 					<view v-if="loginResult" class="num">5</view>
 					<view v-else class="num">--</view>
 					<view class="tit">我的消息</view>
@@ -90,31 +90,31 @@
 					<view v-if="loginResult" class="num">3</view>
 					<view v-else class="num">--</view>
 					<view class="tit">我的足迹</view>
-				</view>
+				</view> -->
 			</view>
 
 			<view class="my-menu">
-				<view class="memu-item" @tap="toDistCenter">
+				<!-- <view class="memu-item" @tap="toDistCenter">
 					<view class="i-name">
 						<image src="/static/images/icon/promotion.png"></image>
 						<text>分销中心</text>
 					</view>
 					<view class="arrowhead"></view>
-				</view>
-				<view class="memu-item" @tap="toCouponCenter">
+				</view> -->
+				<!-- <view class="memu-item" @tap="toCouponCenter">
 					<view class="i-name">
 						<image src="/static/images/icon/getCoupon.png"></image>
 						<text>领券中心</text>
 					</view>
 					<view class="arrowhead"></view>
-				</view>
-				<view class="memu-item" @tap="toMyCouponPage">
+				</view> -->
+				<!-- <view class="memu-item" @tap="toMyCouponPage">
 					<view class="i-name">
 						<image src="/static/images/icon/myCoupon.png"></image>
 						<text>我的优惠券</text>
 					</view>
 					<view class="arrowhead"></view>
-				</view>
+				</view> -->
 				<view class="memu-item" @tap="toAddressList">
 					<view class="i-name">
 						<image src="/static/images/icon/myAddr.png"></image>
