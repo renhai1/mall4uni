@@ -1,6 +1,6 @@
 <template>
 	<view class="con">
-		<!-- <image src="../../static/logo.png"></image> -->
+		<image src="../../static/logo.jpg"></image>
 		<!-- 登录 -->
 		<view class="login-form">
 			<view :class="['item',errorTips==1? 'error':'']">

@@ -20,10 +20,10 @@
 			<view class="userinfo-con">
 				<view class="userinfo-avatar">
 					<!-- <open-data type="userAvatarUrl"></open-data> -->
-					<image :src="loginResult.pic ? (loginResult.pic.indexOf('http') === -1 ? picDomain + loginResult.pic : loginResult.pic) : '../../static/images/icon/head04.png'"></image>
+					<image :src="loginResult.pic ? (loginResult.pic.indexOf('http') === -1 ? picDomain + loginResult.pic : loginResult.pic) : '../../static/images/icon/QQ.jpg'"></image>
 				</view>
 				<view class="userinfo-name">
-					<view>{{loginResult.nickName ? loginResult.nickName : "用户昵称"}}</view>
+					<view>{{loginResult.nickName ? loginResult.nickName : "admin"}}</view>
 					<!-- <open-data type="userNickName"></open-data> -->
 				</view>
 			</view>
